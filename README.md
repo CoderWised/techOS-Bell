@@ -30,9 +30,9 @@
 <h3 align="center">So, there you go! Contribute to the Open Source Website of TechOS Bell🎉</h3>
 <div align="center">
  
-- Contributions are what make the open source community such a fantastic place to learn, inspire, and create.
-- Hence, all your contributions to this Repo will be **Highly Appreciated**.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+Contributions are what make the open source community such a fantastic place to learn, inspire, and create.
+Hence, all your contributions to this Repo will be **Highly Appreciated**.
+Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 ## 🎀 Project Admin
 
@@ -56,6 +56,6 @@ Thank you :)
 <hr>
 	
 © 2022 TechOS Bell and contributors\
-This project is licensed under the [**MIT license**]().
+This project is licensed under the [**MIT license**](https://github.com/fykaa/techOS-Bell/blob/main/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
