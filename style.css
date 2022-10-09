@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* .mySlides {
+    height: 400px
+} */
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* About us */
+
+
+/* Teams */
+#team {
+    width: 100vw;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Column container */
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%;
+    /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    -ms-flex: 70%;
+    /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.team img {
+    /* width: 100px; */
+    height: 50vh;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 100%;
+    /* background-color: #111827; */
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 16px 9px;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    color: var(--light-color);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.2rem 0;
+    gap: 0.3rem;
+}
+
+.icons ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.icons ul li {
+    list-style: none;
+}
+
+.icons ul li a {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 0 0 0 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+    border: 3px solid #fff;
+}
+
+.icons ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.icons ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.icons ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #55acee;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.icons ul li a:hover:before {
+    top: 0;
+}
+
+.icons ul li:nth-child(2) a:before {
+    background: black;
+}
+
+.icons ul li:nth-child(4) a:before {
+    background: rgb(197, 24, 111);
+}
+
+
+
+
+
+
+/*  */
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
