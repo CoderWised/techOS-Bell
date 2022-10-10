@@ -225,7 +225,11 @@ footer p {
     background: rgb(197, 24, 111);
 }
 
-
+.people-img-card {
+    overflow: hidden;
+    border-radius: 26px;
+    border: 4px solid #1abc9c;
+}
 
 
 
