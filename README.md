@@ -1,5 +1,5 @@
 <h1 align="center">TechOS Bell Community Page</h1>
-<p align="center">Not that ordinary community</p>
+<p align="center">-Not that ordinary community!</p>
 <h4 align="center"> A growing non-profit tech community for programmers and non-coders alike! Yes, you read that right, you do not have to be a developer or a programmer to join yet another cool community!
 </h4>
 
@@ -9,7 +9,7 @@
 <h3>Instructions for successfully merged PR under HACKTOBERFEST 👩‍💻🏆👨‍💻</h3>
 
     1. Star this repo ⭐
-    2. Create Issue
+    2. Create any enhancement/bug/simple Issue
     3. Submit Valid PR within 24hrs of Assignment
     4. Wait for your PR to be Merged
     5. Yayy you're done!
