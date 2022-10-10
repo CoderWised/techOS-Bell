@@ -1,3 +1,4 @@
+
 // Automatic Slideshow - change image every 3 seconds
 var myIndex = 0;
 carousel();
