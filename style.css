@@ -276,11 +276,6 @@ footer p {
     background: rgb(197, 24, 111);
 }
 
-
-
-
-
-
 /*  */
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -294,5 +289,89 @@ footer p {
     .navbar a {
         float: none;
         width: 100%;
+    }
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.testimonials .inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.testimonials .inner h1 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.testimonials .border {
+    width: 160px;
+    height: 2px;
+    background: #d8b913;
+    margin: 10px auto;
+}
+
+.testimonials .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials .row .col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonials .row .col .testimonial {
+    background: #ffffff;
+    height: 100%;
+    padding: 50px 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(130, 121, 121, 0.5) 0px 0 10px;
+    -moz-box-shadow: rgba(130, 121, 121, 0.5) 0 0 10px;
+    box-shadow: rgba(130, 121, 121, 0.5) 0 0 10px;
+}
+
+.testimonials .row .col .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials .row .col .testimonial .name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.testimonials .row .col .testimonial .stars {
+    color: #d8b913;
+    margin-bottom: 20px;
+}
+
+.testimonials .row .col .testimonial .text {
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .testimonials .row .col {
+        flex: 100%;
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
     }
 }

@@ -38,7 +38,7 @@ Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/fykaa"><img src="https://avatars.githubusercontent.com/u/97490463?s=400&u=40ecf85c116732649a64751cc0892ff42afbd07d&v=4" width="100px;" alt=""/><br /><sub><b>Fyka</b></sub></a></td>
+<td align="center"><a href="https://github.com/fykaa"><img src="https://avatars.githubusercontent.com/u/97490463?s=400&u=40ecf85c116732649a64751cc0892ff42afbd07d&v=4" width="100px;" alt=""/><br /><sub><b>TechOS Bell</b></sub></a></td>
   </tr>
 </table>
 
