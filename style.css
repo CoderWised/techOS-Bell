@@ -68,7 +68,6 @@ body {
     float: left;
     text-align: center;
     width: 20%; /* Change this incase of adding a new menu item. */
-    height: 100%;
     transition: all ease-in-out .3s;
   }
   #navBar a{
@@ -250,7 +249,7 @@ footer p {
 
 .icons ul li a:hover .icon {
     color: #fff;
- 
+    transform: rotateY(360deg);
 }
 
 .icons ul li a:before {
