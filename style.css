@@ -404,9 +404,9 @@ body{
 }
 
 .cursor{
-  z-index: 999;
-  position: fixed;
-  background: #2696E8;
+  z-index: 9999999 !important;
+  position: absolute;
+  background: #01192a;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -415,8 +415,8 @@ body{
               0 0 60px #2696E8,
               0 0 100px #2696E8;
   animation: colors 5s infinite;
-  transform: translate(-50%, -50%);
-  display: none;
+  transform: all;
+  display: inline-block;
 }
 
 @keyframes colors{
