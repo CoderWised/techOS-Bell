@@ -171,6 +171,7 @@ body {
     height: 50vh;
 }
 
+
 /* Footer */
 .footer {
     padding: 20px;
@@ -375,6 +376,56 @@ footer p {
         margin: auto;
     }
 }
+
+/* FAQ's accoridan styling */
+#faqs {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.accordion {
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.5s;
+  }
+
+  /*Plus and minus sign*/
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796"; 
+  }
+  
+  /* Add background color to the button when hovered and clicked on */
+  .active, .accordion:hover {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+  }
+  
+  /* Answer panel styling */
+  .panel {
+    padding: 0 18px;
+    color: black;
+    text-align: left;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
