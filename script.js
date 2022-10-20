@@ -38,20 +38,36 @@ document.addEventListener("mousemove", (e) => {
       });
 
 //FAQ accordian effects
-var acc = document.getElementsByClassName("accordion");
-var i;
+const arr = document.querySelectorAll('button.accordion')
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
+arr.forEach(acc=>{
+  acc.onclick=()=>{
+
+    // close others
+    document.querySelectorAll('button.accordion.active').forEach(act=>{
+      if (act!==acc) {
+        act.classList.remove('active')
+        act.nextElementSibling.style.maxHeight = null
+    } })
+
+    let panel = acc.nextElementSibling
+    panel.style.maxHeight = (acc.classList.toggle('active')) ? (panel.scrollHeight + "px") : null
+} })
+
+// var acc = document.getElementsByClassName("accordion");
+// var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     }
+//   });
+// }
 
 const showOnPx = 20;
 const backToTopButton = document.querySelector(".back-to-top");
