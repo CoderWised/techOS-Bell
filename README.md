@@ -42,6 +42,18 @@ Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
   </tr>
 </table>
 
+## 🏆 Contributor's Of the Month (Based on Most Efficient Contributions) 🏆
+
+<table>
+
+<td align="center"><a href="https://github.com/Adityageek"><img src="https://avatars.githubusercontent.com/u/33696459?v=4" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a></td>
+
+<td align="center"><a href="https://github.com/BGS89"><img src="https://avatars.githubusercontent.com/u/79923176?v=4" width="100px;" alt=""/><br /><sub><b>BGS89</b></sub></a></td>
+
+<td align="center"><a href=""><img src="https://keeper.com/blog/wp-content/uploads/2016/05/keeperstar2-3.jpg" width="100px;" alt=""/><br /><sub><b>BE THE NEXT</b></sub></a></td>
+
+</table>
+
 ## Thanks to all Contributors🏆
 
 [![Contributors](https://contrib.rocks/image?repo=fykaa/Sample-Portfolio-for-Learners)](https://github.com/fykaa/Sample-Portfolio-for-Learners/graphs/contributors) [![Contributors](https://contrib.rocks/image?repo=fykaa/techOS-Bell)](https://github.com/fykaa/techOS-Bell/graphs/contributors)
