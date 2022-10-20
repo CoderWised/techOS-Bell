@@ -52,3 +52,43 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+const showOnPx = 20;
+const backToTopButton = document.querySelector(".back-to-top");
+const rootElement = document.documentElement;
+
+const scrollContainer = () => {
+  return document.documentElement || document.body;
+};
+
+
+if (scrollContainer().scrollTop > showOnPx) {
+  backToTopButton.classList.remove("hidden");
+} else {
+  backToTopButton.classList.add("hidden");
+}
+
+document.addEventListener("scroll", () => {
+  if (scrollContainer().scrollTop > showOnPx) {
+    backToTopButton.classList.remove("hidden")
+  } else {
+    backToTopButton.classList.add("hidden")
+  }
+})
+
+document.addEventListener("touchstart", () => {
+  if (scrollContainer().scrollTop > showOnPx) {
+    backToTopButton.classList.remove("hidden")
+  } else {
+    backToTopButton.classList.add("hidden")
+  }
+})
+
+const goToTop = () => {
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+};
+
+backToTopButton.addEventListener("click", goToTop);
