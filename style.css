@@ -207,6 +207,25 @@ footer p {
 
 }
 
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2.5rem;
+  border-radius: 0.75rem;
+  background: #fa709a;
+  padding: 1.1rem;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  transition: opacity 0.5s;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.hidden {
+    opacity: 0%;
+}
+
 .footer-wrapper {
     display: flex;
     flex-direction: column;
