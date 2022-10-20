@@ -92,6 +92,10 @@ body {
 } 
 /* Change color on hover */
 
+
+#about h2{
+    color:white;
+}
 @keyframes fadeIn {
     0% {
         opacity: 100;
