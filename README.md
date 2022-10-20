@@ -54,7 +54,7 @@ Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 </table>
 
-## Thanks to all Contributors🏆
+## Thanks to all Contributors🎖️
 
 [![Contributors](https://contrib.rocks/image?repo=fykaa/Sample-Portfolio-for-Learners)](https://github.com/fykaa/Sample-Portfolio-for-Learners/graphs/contributors) [![Contributors](https://contrib.rocks/image?repo=fykaa/techOS-Bell)](https://github.com/fykaa/techOS-Bell/graphs/contributors)
 
