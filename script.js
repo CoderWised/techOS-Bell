@@ -36,3 +36,9 @@ document.addEventListener("mousemove", (e) => {
     document.addEventListener("mouseout", () => {
         cursor.style.display = "none";
       });
+
+
+let navTabs = document.querySelector(".navbar-tabs");
+function openMenu() {
+    navTabs.classList.toggle("open-menu")
+}
