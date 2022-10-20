@@ -9,8 +9,8 @@
 <h3>Instructions for successfully merged PR under HACKTOBERFEST 👩‍💻🏆👨‍💻</h3>
 
     1. Star this repo ⭐
-    2. Create any enhancement/bug/simple Issue
-    3. Submit Valid PR within 24hrs of Assignment
+    2. Solve the enhancement/bug/updates Issue
+    3. Submit Valid PR
     4. Wait for your PR to be Merged
     5. Yayy you're done!
 <a href="https://hacktoberfest.com/">
