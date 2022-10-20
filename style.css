@@ -509,3 +509,13 @@ body{
   border-radius: 50%;
 }
       
+/* contributors CSS */
+.contributors{
+    display: flex;
+    flex-wrap:wrap;
+}
+.contributors a,
+.contributors a img{
+    max-width: 100%;
+    margin-bottom:.2rem;
+}
