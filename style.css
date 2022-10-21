@@ -163,10 +163,6 @@ body {
     overflow-x: hidden;
 }
 
-#john, #paula, #ringo {
-    border-radius: 50%;
-}
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
