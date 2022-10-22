@@ -42,8 +42,8 @@ Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
   </tr>
 </table>
 
-## 🏆 Contributor's Of the Month (Based on Most Efficient Contributions) 🏆
-
+## 🏆 Contributor's Trophy - Contributors Of the Month🏆
+(Based on Most Efficient Contributions) 
 <table>
 
 <td align="center"><a href="https://github.com/Adityageek"><img src="https://avatars.githubusercontent.com/u/33696459?v=4" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a></td>
@@ -54,7 +54,7 @@ Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 </table>
 
-## Thanks to all Contributors🎖️
+## 🎖️Thanks to all Contributors🎖️
 
 [![Contributors](https://contrib.rocks/image?repo=fykaa/Sample-Portfolio-for-Learners)](https://github.com/fykaa/Sample-Portfolio-for-Learners/graphs/contributors) [![Contributors](https://contrib.rocks/image?repo=fykaa/techOS-Bell)](https://github.com/fykaa/techOS-Bell/graphs/contributors)
 
