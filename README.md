@@ -8,7 +8,7 @@
 <h1 align="center">HacktoberFest Accepted </h1>
 <h3>Instructions for successfully merged PR under HACKTOBERFEST 👩‍💻🏆👨‍💻</h3>
 • Most efficient PR receives a Shout-Out under the Contributions Trophy of the month <br>
-• Is Merged the FASTEST (within 4 hours) <br>
+• Most efficient PR is Merged the FASTEST (within 4 hours) <br>
 
 
     1. Star this repo ⭐
