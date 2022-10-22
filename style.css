@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -21,6 +22,7 @@ body {
     text-align: center;
     background: #1abc9c;
     color: white;
+    margin: 0;
 }
 
 /* Increase the font size of the heading */
@@ -105,6 +107,84 @@ body {
 
 
 /* About us */
+.aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-image: url(assets/aboutsvg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 1rem;
+    color: black;
+}
+
+.aboutus h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.aboutus h5{
+    color:  white;
+    font-size: 22px;
+
+}
+.clas p{
+    color: white;
+}
+
+.aboutus .content{
+    text-align: center;
+    padding : 15px;
+}
+
+.clas img{
+    width: 5rem;
+}
+
+.item{
+    border-radius: 5px;
+    width: minmax(250px, 500px);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.item1{
+    background-color: #9c2400;
+    grid-area: item1;
+}
+
+.item2{
+    background-color: #0078a3;
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+    align-content: center;
+}
+
+.item4{
+    background-color: #009270;
+    grid-area: item4;
+}
+
+.clas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "item1  item1 item1"
+        "item2 item2 item3"
+        "item4 item4 item4";
+    gap: 1rem;
+    position: relative;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 
 
 /* Teams */
@@ -459,6 +539,7 @@ body{
   height: 100vh;
   background: #000115;
   cursor: none;
+  z-index: -10;
 }
 
 .main{
