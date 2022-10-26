@@ -690,4 +690,32 @@ body{
 	z-index: 20;
 }
 
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color:  linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) black;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: black;
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px !important;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	opacity: 1;
+	transform: translateY(0);
+	padding: 20px 0;
+	box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+	-webkit-transition : all 0.3s ease-out;
+	transition : all 0.3s ease-out;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border-radius: 20px;
+    border: 1px solid black;
+  }
 
