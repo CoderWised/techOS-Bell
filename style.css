@@ -84,11 +84,17 @@ body {
     font-weight: 600;
 }
 
-.aboutus h5{
-    color:  white;
+.aboutus h5 {
+    color: white;
     font-size: 22px;
-
+    text-decoration: none; 
+    transition: text-decoration 0.3s ease; 
 }
+
+.aboutus h5:hover {
+    text-decoration: underline;
+}
+
 .clas p{
     color: white;
 }
@@ -109,7 +115,7 @@ body {
 }
 
 .item1{
-    background-color: #9c2400;
+    background-color: #700092;
     grid-area: item1;
 }
 
@@ -133,7 +139,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "item1  item1 item1"
-        "item2 item2 item3"
+        "item2 item2 item2"
         "item4 item4 item4";
     gap: 1rem;
     position: relative;
